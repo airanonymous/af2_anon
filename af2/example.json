@@ -1,0 +1,8 @@
+[{
+        "audio": "af2/synth_woman_cat",
+        "question":"What is unusual about the audio?",
+        "qwen2_audio_answer": "",
+        "gama_answer": "There is nothing unusual about the audio",
+        "af_answer": "open-ended question",
+        "af2_answer": "nothing"
+    }]
