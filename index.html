@@ -69,7 +69,7 @@
         console.log("Fetching JSON data...");
 
         // Ensure the correct file path
-        const response = await fetch('./af2/example.json');
+        const response = await fetch('/af2/example.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -97,7 +97,6 @@
                 <td>${item.question}</td>
                 <td>${item.qwen2_audio_answer || 'N/A'}</td>
                 <td>${item.gama_answer || 'N/A'}</td>
-                <td>${item.af_answer || 'N/A'}</td>
                 <td>${item.af2_answer || 'N/A'}</td>
             `;
             tableBody.appendChild(row);
@@ -166,7 +165,6 @@ window.onload = loadExamples;
                         <th>Question</th>
                         <th>Qwen2-Audio</th>
                         <th>GAMA</th>
-                        <th>AudioFlamingo</th>
                         <th>AudioFlamingo 2</th>
                     </tr>
                 </thead>
