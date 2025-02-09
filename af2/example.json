@@ -1,8 +1,15 @@
 [{
         "audio": "af2/synth_woman_cat",
         "question":"What is unusual about the audio?",
-        "qwen2_audio_answer": "",
-        "gama_answer": "There is nothing unusual about the audio",
-        "af_answer": "open-ended question",
-        "af2_answer": "nothing"
-    }]
+        "qwen2_audio_answer": "The audio contains background noise and source-ambiguous sounds, including generic impact sounds, along with a dog barking continuously.",
+        "gama_answer": "There is nothing unusual about the audio.",
+        "af2_answer": "the combination of the dog's barking and the woman's speech is unusual and unexpected."
+    },
+    {
+        "audio": "af2/sample_1",
+        "question":"What is unusual about the audio?",
+        "qwen2_audio_answer": "The input audio contains a dark electronic piece with synthesizers and drums that has an energetic and experimental mood, instrumental only, and includes bass and percussion.",
+        "gama_answer": "The audio clip does not contain any unusual sounds. It is a typical example of a musical composition with drums and percussion instruments playing.",
+        "af2_answer": "the unusual aspect of the audio is the combination of the music and the sound of the mechanisms."
+    }
+]
