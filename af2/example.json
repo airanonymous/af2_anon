@@ -1,7 +1,7 @@
 [{
         "audio": "af2/synth_woman_cat",
         "question":"What is unusual about the audio?",
-        "qwen2_audio_answer": "The audio contains background noise and source-ambiguous sounds, including generic impact sounds, along with a dog barking continuously.",
+        "qwen2_audio_answer": "A small dog barks continuously.",
         "gama_answer": "There is nothing unusual about the audio.",
         "af2_answer": "the combination of the dog's barking and the woman's speech is unusual and unexpected."
     },
@@ -11,5 +11,33 @@
         "qwen2_audio_answer": "The input audio contains a dark electronic piece with synthesizers and drums that has an energetic and experimental mood, instrumental only, and includes bass and percussion.",
         "gama_answer": "The audio clip does not contain any unusual sounds. It is a typical example of a musical composition with drums and percussion instruments playing.",
         "af2_answer": "the unusual aspect of the audio is the combination of the music and the sound of the mechanisms."
+    },
+    {
+        "audio": "af2/50367",
+        "question":"how would you describe the scene from the audio?",
+        "qwen2_audio_answer": "The background sounds include domestic home sounds, water tap or faucet noise, sounds of various mechanisms, generic impact sounds, and respiratory sounds such as breathing.",
+        "gama_answer": "",
+        "af2_answer": "water running and a woman speaking."
+    },
+    {
+        "audio": "af2/50213",
+        "question":"what is the soundscape in this audio?",
+        "qwen2_audio_answer": "The audio contains the sound of an engine accelerating and revving, noticeable as medium engine sounds of mid-frequency active throughout the duration of the audio, coupled with brief instances of a clock ticking at specific intervals. Additionally, there is a speech segment where a male voice in Mandarin can be heard saying '坐等他开走啊'.",
+        "gama_answer": "",
+        "af2_answer": "a man speaks and a vehicle engine runs."
+    },
+    {
+        "audio": "af2/fPYeqTFc3IQ",
+        "question":"summarize the music content in a sentence.",
+        "qwen2_audio_answer": "The music features a solo guitar playing blues with slides between chord changes and a syncopated bassline, creating a relaxed atmosphere.",
+        "gama_answer": "",
+        "af2_answer": "this is a salsa music piece. there is a brass section playing the main melody. the rhythm is played by the acoustic drums and the bass guitar. the atmosphere is upbeat and joyful. this piece could be playing in the background at a latin american social media company."
+    },
+    {
+        "audio": "af2/FMr1WHtXJbc",
+        "question":"provide a caption for the music.",
+        "qwen2_audio_answer": "The music is in C major, with a time signature of 4/4 and a tempo of 103.45 bpm.",
+        "gama_answer": "",
+        "af2_answer": "'this is a live performance of a blues rock piece. there is an electric guitar playing a solo using the tapping technique. the piece has a blues feel to it. the atmosphere is groovy. this piece could be playing in the background at a rock bar."
     }
 ]
