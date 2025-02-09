@@ -69,7 +69,7 @@
         console.log("Fetching JSON data...");
 
         // Ensure the correct file path
-        const response = await fetch('/af2/example.json');
+        const response = await fetch('./af2/example.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
