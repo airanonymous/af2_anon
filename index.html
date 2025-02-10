@@ -121,7 +121,7 @@
         async function loadExamples() {
             try {
                 console.log("Fetching JSON data...");
-                const response = await fetch('./af2/example.json');
+                const response = await fetch('./af2/examples.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
