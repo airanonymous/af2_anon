@@ -122,7 +122,7 @@
     {
         "audio": "af2/5cd015ad-5997-424c-8ea7-c52cf8c23045.wav",
         "question": "What specific sounds can be distinguished from the audio clip?\n(A) Car honking and raindrops \n(B) Whistling and chatter\n(C) Helicopter and impact sounds\n(D) Birds chirping and water flowing",
-        "answer": "Radio",
+        "answer": "Helicopter and impact sounds",
         "ltu_answer": "The source of the sound is likely whistling and chatter .",
         "qwen2_audio_answer": "The specific sounds that can be distinguished are birds chirping and water flowing.",
         "gama_answer": "b) Whistling and chatter",
