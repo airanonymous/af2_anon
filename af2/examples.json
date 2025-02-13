@@ -23,7 +23,7 @@
         "audio": "af2/50367.wav",
         "question": "how would you describe the scene from the audio?",
         "answer": "Water pouring from a faucet and draining into a pipe while a young girl talks followed by a brush scrubbing then a person spitting.",
-        "ltu_answer": "An woman is taking whike a water flowing in the background.",
+        "ltu_answer": "A woman is talking while a water flowing in the background.",
         "qwen2_audio_answer": "The background sounds include domestic home sounds, water tap or faucet noise, sounds of various mechanisms, generic impact sounds, and respiratory sounds such as breathing.",
         "gama_answer": "Water flowing while a woman talking can be heard.",
         "af2_answer": "water running and a woman speaking.",
