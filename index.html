@@ -82,6 +82,10 @@
             background-color: #cce5ff;
             /* font-weight: bold; */
         }
+        .gemini {
+            background-color: #f7e588;
+            /* font-weight: bold; */
+        }
         .answer {
             background-color: #c7feb0;
         }
@@ -148,6 +152,7 @@
                                 <p class="model-response ltu">LTU: ${item.ltu_answer || 'N/A'}</p>
                                 <p class="model-response qwen2">Qwen2-Audio-Instruct: ${item.qwen2_audio_answer || 'N/A'}</p>
                                 <p class="model-response gama">GAMA: ${item.gama_answer || 'N/A'}</p>
+                                <p class="model-response gemini">Gemini: ${item.gemini || 'N/A'}</p>
                                 <p class="model-response af">Audio Flamingo (chat): ${item.af || 'N/A'}</p>
                             </div>
                         `;
