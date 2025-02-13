@@ -122,7 +122,7 @@
     {
         "audio": "af2/5cd015ad-5997-424c-8ea7-c52cf8c23045.wav",
         "question": "What specific sounds can be distinguished from the audio clip?\n(A) Car honking and raindrops \n(B) Whistling and chatter\n(C) Helicopter and impact sounds\n(D) Birds chirping and water flowing",
-        "answer": "Helicopter and impact sounds",
+        "answer": "(C) Helicopter and impact sounds",
         "ltu_answer": "The source of the sound is likely whistling and chatter .",
         "qwen2_audio_answer": "The specific sounds that can be distinguished are birds chirping and water flowing.",
         "gama_answer": "b) Whistling and chatter",
@@ -132,17 +132,17 @@
     {
         "audio": "af2/2573bb7c-5319-4e62-aca6-f90a7e5e7cd5.wav",
         "question": "Which chord is played right before the last chord in the audio?\n(A) C#:maj7/1,\n(B) F#:maj7/1,\n(C) G#:7/1,\n(D) A#:min7/1",
-        "answer": "F#:maj7/1",
+        "answer": "(B) F#:maj7/1",
         "ltu_answer": "The chord playing in the audio is not mentioned.",
         "qwen2_audio_answer": "The chord played right before the last chord in the audio is A# major (A#maj7/1).\u201d",
         "gama_answer": "The chord playing in the audio is a) C#:maj7/1",
-        "af2_answer": "b) f#:maj7/1",
+        "af2_answer": "(b) f#:maj7/1",
         "af": "An intro riff featuring a single chord from the acoustic-guitar is strummed before the last chord in the audio."
     },
     {
         "audio": "af2/145945.2min.mp3",
         "question": "Which instrument performs the long melancholic solo section? Options: (A) Vocals (B) Guitar (C) Drum groove (D) Emotional male vocal delivery",
-        "answer": "Guitar",
+        "answer": "(B) Guitar",
         "ltu_answer": "Emotional male vocal delivery pperforms the long melancholic solo section.",
         "qwen2_audio_answer": "The answer is D: Emotional male vocal delivery.",
         "gama_answer": "(D) Emotional male vocal delivery",
@@ -152,7 +152,7 @@
     {
         "audio": "af2/1093793.2min.mp3",
         "question": "Which two genres are primarily combined in this music piece? Options: (A) Techno and Trance (B) EDM and House (C) Folk and Rock (D) Electronic Disco",
-        "answer": "EDM and House",
+        "answer": "(B) EDM and House",
         "ltu_answer": "(A) Techno and Trance",
         "qwen2_audio_answer": "The answer is D: Emotional male vocal delivery.",
         "gama_answer": "The primary combination of genres in this music piece is (D) Electronic Disco, which encompasses elements of both techno and trance.",
