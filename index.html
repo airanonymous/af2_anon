@@ -35,6 +35,12 @@
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
         .example-card {
             background: white;
             padding: 20px;
@@ -115,7 +121,7 @@
                     throw new Error("JSON data is not an array");
                 }
 
-                const subsectionCounts = { "Emergent Ability": 2, "Sound Captioning": 2, "Music Captioning": 2, "LongAudioBench": 6, "MMAU test-mini": 2, "Muchomusic":2};
+                const subsectionCounts = { "Emergent Ability": 2, "Sound Captioning (AudioCaps)": 2, "Music Captioning (MusicCaps)": 2, "LongAudioBench": 6, "MMAU test-mini": 2, "Muchomusic":2};
                 let currentIndex = 0;
                 
                 Object.keys(subsectionCounts).forEach(subsection => {
@@ -136,8 +142,8 @@
                                 Your browser does not support the audio element.
                             </audio>
                             <div class="example-content">
-                                <p>Question: ${item.question}</p>
-                                <p class="model-response answer">Answer: ${item.answer || 'N/A'}</p>
+                                <p><b>Question: ${item.question}</b></p>
+                                <p class="model-response answer"><b>Answer: ${item.answer || 'N/A'}</b></p>
                                 <p class="model-response ltu">LTU: ${item.ltu_answer || 'N/A'}</p>
                                 <p class="model-response qwen2">Qwen2-Audio: ${item.qwen2_audio_answer || 'N/A'}</p>
                                 <p class="model-response gama">GAMA: ${item.gama_answer || 'N/A'}</p>
