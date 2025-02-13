@@ -1,71 +1,113 @@
 [{
-        "audio": "af2/synth_woman_cat",
+        "audio": "af2/synth_woman_cat.wav",
         "question":"What is unusual about the audio?",
+        "answer":"The audio contains sound of woman trying to bark as a dog.",
         "qwen2_audio_answer": "A small dog barks continuously.",
         "ltu_answer":"There is nothing unusual.",
         "gama_answer": "There is nothing unusual about the audio.",
         "af2_answer": "the combination of the dog's barking and the woman's speech is unusual and unexpected."
     },
     {
-        "audio": "af2/sample_1",
+        "audio": "af2/sample_1.wav",
         "question":"What is unusual about the audio?",
+        "answer":"The audio contains combination of music and hammer beating which is unusual.",
         "ltu_answer":"There is nothing unusual.",
         "qwen2_audio_answer": "The input audio contains a dark electronic piece with synthesizers and drums that has an energetic and experimental mood, instrumental only, and includes bass and percussion.",
         "gama_answer": "The audio clip does not contain any unusual sounds. It is a typical example of a musical composition with drums and percussion instruments playing.",
         "af2_answer": "the unusual aspect of the audio is the combination of the music and the sound of the mechanisms."
     },
     {
-        "audio": "af2/50367",
+        "audio": "af2/50367.wav",
         "question":"how would you describe the scene from the audio?",
+        "answer":"Water pouring from a faucet and draining into a pipe while a young girl talks followed by a brush scrubbing then a person spitting.",
         "ltu_answer":"An woman is taking whike a water flowing in the background.",
         "qwen2_audio_answer": "The background sounds include domestic home sounds, water tap or faucet noise, sounds of various mechanisms, generic impact sounds, and respiratory sounds such as breathing.",
         "gama_answer": "Water flowing while a woman talking can be heard.",
         "af2_answer": "water running and a woman speaking."
     },
     {
-        "audio": "af2/50213",
-        "question":"what is the soundscape in this audio?",
+        "audio": "af2/50213.wav",
+        "question":"What is the soundscape in this audio?",
+        "answer":"Traffic hums and beeps with revving engines and a man speaking nearby.",
         "ltu_answer":"An idle car engine is heard.",
         "qwen2_audio_answer": "The audio contains the sound of an engine accelerating and revving, noticeable as medium engine sounds of mid-frequency active throughout the duration of the audio, coupled with brief instances of a clock ticking at specific intervals. Additionally, there is a speech segment where a male voice in Mandarin can be heard saying '坐等他开走啊'.",
         "gama_answer": "Sound of men talking and car engine",
         "af2_answer": "a man speaks and a vehicle engine runs."
     },
     {
-        "audio": "af2/fPYeqTFc3IQ",
+        "audio": "af2/fPYeqTFc3IQ.wav",
         "question":"summarize the music content in a sentence.",
+        "answer":"A female vocalist sings this spirited latin song.the tempo is medium fast with an animated piano accompaniment, rhythmic congas and bongos, funky bass line and bright trumpet harmony. The song is lively, spirited, upbeat, catchy, vivacious;vibrant and peppy with a salsa dance groove. This song is Latin Pop.",
         "ltu_answer":"A female voice is heard singing, possibly a dance song.",
         "qwen2_audio_answer": "The music features a solo guitar playing blues with slides between chord changes and a syncopated bassline, creating a relaxed atmosphere.",
         "gama_answer": "A salsa song with a vibrant and upbeat rhythm and a male voice singing in the background with a trumpet playing a melody in the foreground. The song is lively, energetic, and joyful.",
         "af2_answer": "this is a salsa music piece. there is a brass section playing the main melody. the rhythm is played by the acoustic drums and the bass guitar. the atmosphere is upbeat and joyful. this piece could be playing in the background at a latin american social media company."
     },
     {
-        "audio": "af2/FMr1WHtXJbc",
+        "audio": "af2/FMr1WHtXJbc.wav",
         "question":"provide a caption for the music.",
+        "answer":"The low quality recording features an arpeggiated steel acoustic guitar playing alongside acoustic rhythm guitar chord progression. The recording is noisy and in mono and it sounds like a cartoon song.",
         "ltu_answer":"Music featuring guitar playing can be heard.",
         "qwen2_audio_answer": "The music is in C major, with a time signature of 4/4 and a tempo of 103.45 bpm.",
         "gama_answer": "A guitar is playing.",
         "af2_answer": "this is a live performance of a blues rock piece. there is an electric guitar playing a solo using the tapping technique. the piece has a blues feel to it. the atmosphere is groovy. this piece could be playing in the background at a rock bar."
     },
     {
-        "audio": "af2/000002999514.0",
-        "question":"What can be heard towards the beginning of the audio? Choose the correct option among the options below:\n\n(A) Music and intermittent barking\n(B) Drumming and laughter\n(C) Salsa music and electric guitar\n(D) Rock piece with drums and guitar",
-        "answer": "(A) Music and intermittent barking",
-        "ltu_answer":"Salsa music is heard in the audio.",
-        "qwen2_audio_answer": "The music is in C major, with a time signature of 4/4 and a tempo of 103.45 bpm.",
-        "gama_answer": "c) Salsa music and electric guitar",
-        "af2_answer": "(A) Music and intermittent barking"
+        "audio": "af2/000000034150.8.wav",
+        "question":"What sound is heard towards the end of the audio? choose the correct option among the options below:\n\n(a) a man dancing\n(b) a man speaking in english\n(c) a man kicking a door\n(d) continuous background noise",
+        "answer": "(b) a man speaking in english",
+        "ltu_answer":"A man kicking the door can be heard towards the end of the audio.",
+        "qwen2_audio_answer": "(C) A man kicking a door",
+        "gama_answer": "(a) a man dancing",
+        "af2_answer": "(b) a man speaking in english"
     },
     {
-        "audio": "af2/8261",
-        "question":"Give a description of the atmosphere in the audio.",
-        "answer": "Continuous background noise with occasional sounds of objects being moved and water running in an apartment.",
-        "ltu_answer":"The audio contains background noise and chatter.",
-        "qwen2_audio_answer": "There is noise with intermitent impact sounds in the audio.",
-        "gama_answer": "The atmosphere in the audio is warm, cozy, and inviting.",
-        "af2_answer": "There is continuous background noise with occasional sounds of objects being moved and water running in an apartment."
+        "audio": "af2/000000031848.5.wav",
+        "question":"When is the mellow piano melody heard? Choose the correct option among the options below:\n\n(A) Beginning\n(B) Middle\n(C) End",
+        "answer": "(B) Middle",
+        "ltu_answer":"There is no information about the mellow piano melody in the audio.",
+        "qwen2_audio_answer": "The mellow piano melody can be heard at the beginning of the track, as indicated by the description provided in the background information. Therefore, the answer is (A).",
+        "gama_answer": "(A) Beginning",
+        "af2_answer": "(b) middle"
     },
     {
-        "audio": "af2/5cd015ad-5997-424c-8ea7-c52cf8c23045",
+        "audio": "af2/5035.wav",
+        "question":"What happens between the background noise and the clicking sounds?",
+        "answer": "A man and a woman are heared talking after the background noise and before the clicking sounds.",
+        "ltu_answer":"A man is talking.",
+        "qwen2_audio_answer": "(A) Beginning",
+        "gama_answer": "The audio clip does not provide enough information to determine what happens between the background noise and the clicking sounds. ",
+        "af2_answer": "a man speaks in english, followed by a woman speaking in english."
+    },
+    {
+        "audio": "af2/000000032855.3.wav",
+        "question":"What indicates a sudden moment of fear in the audio?",
+        "answer": "a man's voice turns fearful amidst the continuous background noise and animal sounds.",
+        "ltu_answer":"The sad music conveys fearful moment in the audio.",
+        "qwen2_audio_answer": "The change from birds chirping to a loud, high-pitched tone suggests a moment of fear.",
+        "gama_answer": "The suddenness of the human voice and the high pitch of the tone.",
+        "af2_answer": "a male voice speaks in a fearful tone amidst the background noise and bird chirping."
+    },
+    {
+        "audio": "af2/000002017371.0.wav",
+        "question":"What musical elements accompany the announcement of the SAG Awards nominations?",
+        "answer": "an instrumental theme with electric guitar, keyboard chords, bass guitar pattern, and drum beat.",
+        "ltu_answer":"There is no information about the musical elements and SAG awards nominations in the audio.",
+        "qwen2_audio_answer": "An instrumental theme with electric guitar, keyboard chords, bass guitar pattern, and drum beat.",
+        "gama_answer": "The audio clip does not provide information about any musical elements accompanying the announcement.",
+        "af2_answer": "a male voice announces the nominations over a slow tempo instrumental piece with a groovy bass line and a simple drum beat."
+    },
+    {
+        "audio": "af2/000000032816.10.wav",
+        "question":"What indicates a shift in the speaker's mood during the audio?",
+        "answer": "the speaker's voice turns from happy to disgusted when discussing unusual methods.",
+        "ltu_answer":"The background sound turns suspenseful which indicate a shift in the mood of the speaker.",
+        "qwen2_audio_answer": "The transition from no music to music indicates a shift in the speaker's mood.",
+        "gama_answer": "The shift in the speaker's mood is not specified in the given information. It is possible that the speaker's tone or inflection changes, but without further context, it is difficult to determine the exact shift in mood. ",
+        "af2_answer": "the male voice transitions from a neutral tone to a disgusted mood while discussing the man's actions."
+    },
+    {
+        "audio": "af2/5cd015ad-5997-424c-8ea7-c52cf8c23045.wav",
         "question":"What specific sounds can be distinguished from the audio clip?\n(A) Car honking and raindrops \n(B) Whistling and chatter\n(C) Helicopter and impact sounds\n(D) Birds chirping and water flowing",
         "answer": "Radio",
         "ltu_answer":"The source of the sound is likely whistling and chatter .",
@@ -74,12 +116,30 @@
         "af2_answer": "(c) helicopter and impact sounds"
     },
     {
-        "audio": "af2/2573bb7c-5319-4e62-aca6-f90a7e5e7cd5",
+        "audio": "af2/2573bb7c-5319-4e62-aca6-f90a7e5e7cd5.wav",
         "question":"Which chord is played right before the last chord in the audio?\n(A) C#:maj7/1,\n(B) F#:maj7/1,\n(C) G#:7/1,\n(D) A#:min7/1",
         "answer": "F#:maj7/1",
         "ltu_answer":"The chord playing in the audio is not mentioned.",
         "qwen2_audio_answer": "The chord played right before the last chord in the audio is A# major (A#maj7/1).”",
         "gama_answer": "The chord playing in the audio is a) C#:maj7/1",
         "af2_answer": "b) f#:maj7/1"
+    },
+    {
+        "audio": "af2/145945.2min.mp3",
+        "question":"Which instrument performs the long melancholic solo section? Options: (A) Vocals (B) Guitar (C) Drum groove (D) Emotional male vocal delivery",
+        "answer": "Guitar",
+        "ltu_answer":"Emotional male vocal delivery pperforms the long melancholic solo section.",
+        "qwen2_audio_answer": "The answer is D: Emotional male vocal delivery.",
+        "gama_answer": "(D) Emotional male vocal delivery",
+        "af2_answer": "(b) guitar"
+    },
+    {
+        "audio": "af2/1093793.2min.mp3",
+        "question":"Which two genres are primarily combined in this music piece? Options: (A) Techno and Trance (B) EDM and House (C) Folk and Rock (D) Electronic Disco",
+        "answer": "EDM and House",
+        "ltu_answer":"(A) Techno and Trance",
+        "qwen2_audio_answer": "The answer is D: Emotional male vocal delivery.",
+        "gama_answer": "The primary combination of genres in this music piece is (D) Electronic Disco, which encompasses elements of both techno and trance.",
+        "af2_answer": "(b) edm and house"
     }
 ]
