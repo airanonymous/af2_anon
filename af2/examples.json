@@ -1,16 +1,5 @@
 [
     {
-        "audio": "af2/synth_woman_cat.wav",
-        "question": "What is unusual about the audio?",
-        "answer": "The audio contains sound of woman trying to bark as a dog.",
-        "qwen2_audio_answer": "A small dog barks continuously.",
-        "ltu_answer": "There is nothing unusual.",
-        "gama_answer": "There is nothing unusual about the audio.",
-        "af2_answer": "the combination of the dog's barking and the woman's speech is unusual and unexpected.",
-        "af": "The audio is not particularly unusual. It consists of common sounds found in a household or pet store environment.",
-        "gemini": "The audio sounds like someone is repeatedly pressing a button or key, likely on a walkie-talkie or similar two-way radio device. The unusual part is that there's no discernible message or conversation.  It's just repeated, short bursts of the transmit tone or \"keying\" sound.  This suggests someone might be testing the device, experiencing technical difficulties, or perhaps accidentally holding down the transmit button.\n"
-    },
-    {
         "audio": "af2/sample_1.wav",
         "question": "What is unusual about the audio?",
         "answer": "The audio contains combination of music and hammer beating which is unusual.",
@@ -20,6 +9,17 @@
         "af2_answer": "the unusual aspect of the audio is the combination of the music and the sound of the mechanisms.",
         "af": "The audio seems like a remix of a popular song, which might make it interesting. However, the combination of the rhythmic scratching and rhythmic tapping sounds and the vibrating techno beat suggests a somewhat unusual arrangement.",
         "gemini": "The unusual thing about the audio is that it sounds like someone is **shredding paper by hand**, but at a very **fast and consistent pace**.  It's so fast and rhythmic that it almost sounds mechanical, but the slight variations and imperfections suggest a human hand.  It's the speed and consistency that makes it stand out.\n"
+    },
+    {
+        "audio": "af2/synth_dog.wav",
+        "question": "What is unusual about the audio?",
+        "answer": "The audio contains sound of woman trying to bark as a dog.",
+        "qwen2_audio_answer": "A small dog barks continuously.",
+        "ltu_answer": "There is nothing unusual.",
+        "gama_answer": "There is nothing unusual about the audio.",
+        "af2_answer": "the combination of the dog's barking and the woman's speech is unusual and unexpected.",
+        "af": "The audio is not particularly unusual. It consists of common sounds found in a household or pet store environment.",
+        "gemini": "The audio sounds like someone is repeatedly pressing a button or key, likely on a walkie-talkie or similar two-way radio device. The unusual part is that there's no discernible message or conversation.  It's just repeated, short bursts of the transmit tone or \"keying\" sound.  This suggests someone might be testing the device, experiencing technical difficulties, or perhaps accidentally holding down the transmit button.\n"
     },
     {
         "audio": "af2/50367.wav",
