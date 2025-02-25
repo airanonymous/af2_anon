@@ -77,7 +77,7 @@
         "gemini": "The correct answer is (b).\n\nA man's voice clearly says, \"It's over here... Don't lose me.\"\nThere's no other sound effect that matches the other choices.\n"
     },
     {
-        "audio": "af2/000002600970.0.wav",
+        "audio": "af2/000002600970.0.mp3",
         "question": "When is the song with a male vocalist heard? Choose the correct option among the options below:\n\n(A) Towards the beginning\n(B) In the middle\n(C) Towards the end",
         "answer": "(B) In the middle",
         "ltu_answer": "Male vocalist can be heard throughout the audio.",
