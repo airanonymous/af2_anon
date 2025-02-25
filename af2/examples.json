@@ -132,6 +132,28 @@
         "gemini": "The shift in the speaker's mood is indicated by the interruption and side conversations happening while he's giving his sermon.  We hear whispers, someone saying \"Stop it,\" and requests to have the disruptive element taken outside. These indicate the speaker is likely becoming increasingly frustrated and perhaps embarrassed by the disruption.  The final exasperated sigh further emphasizes the shift from confident preaching to annoyance and exasperation.\n"
     },
     {
+        "audio": "af2/000000013163.0.wav",
+        "question": "How does the intensity of background noise change throughout the audio? Choose the correct option among the options below:\n\n(A) It becomes louder and more chaotic\n(B) It remains consistent\n(C) It decreases over time\n(D) It fluctuates randomly",
+        "answer": "(B) It remains consistent",
+        "ltu_answer": "No details are provided regarding how the background noise varies over the duration of the audio.",
+        "qwen2_audio_answer": "The information provided does not specify how the background noise changes over time, so we cannot accurately answer this question.",
+        "gama_answer": "(B) It remains consistent",
+        "af2_answer": "(b) it remains consistent",
+        "af": "It remains consistent",
+        "gemini": "The intensity of background noise doesn't change throughout the audio and remains consistent. Therefore, the answer is (B) It remains consistent"
+    },
+    {
+        "audio": "af2/000000035561.2.wav",
+        "question": "Where in the audio is the melancholic violin heard? Choose the correct option among the options below:\n\n(A) The beginning\n(B) The middle\n(C) The end",
+        "answer": "(B) The middle",
+        "ltu_answer": "The melancholic violin heard in the beginning of the audio.",
+        "qwen2_audio_answer": "The melancholic violin can be heard at the following times: (A) At the beginning of the loop, and (C) At the very end of the track, right before the fade-out.",
+        "gama_answer": "(A)",
+        "af2_answer": "(b) the middle",
+        "af": "The melancholic violin is heard towards the end of the audio.",
+        "gemini": "A melancholy violin appears around the middle of the audio track, so the answer is (B)."
+    },
+    {
         "audio": "af2/5cd015ad-5997-424c-8ea7-c52cf8c23045.wav",
         "question": "What specific sounds can be distinguished from the audio clip?\n(A) Car honking and raindrops \n(B) Whistling and chatter\n(C) Helicopter and impact sounds\n(D) Birds chirping and water flowing",
         "answer": "(C) Helicopter and impact sounds",
